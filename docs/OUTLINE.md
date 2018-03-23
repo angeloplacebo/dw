@@ -53,5 +53,5 @@
   - Media query
 
 **Exercício:**
-* Estilizando o mamual do comando PING em CSS:
+* Estilize o mamual do comando PING em CSS:
   * [Proposta](https://ifpb.github.io/html-exercises/css/man-ping/) de [Miguel Cabral](https://github.com/BelarminoM)
