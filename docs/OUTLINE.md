@@ -36,9 +36,10 @@
 - [Referências dos Elementos no MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/)
 
 **Exercício:**
-* Reconstruindo a [Primeira Página da Web](https://ifpb.github.io/html-exercises/challenges/first-web-page/)
-* [Inspecionando uma página na Web](https://ifpb.github.io/html-exercises/challenges/inspect-page/)
-* Estruturando o mamual do [comando PING](https://ifpb.github.io/html-guide/css/man-page/) em HTML ([Fonte](https://linux.die.net/man/8/ping))
+* Reconstrua a [Primeira Página da Web](https://ifpb.github.io/html-exercises/challenges/first-web-page/)
+* [Inspecione uma página na Web](https://ifpb.github.io/html-exercises/challenges/inspect-page/)
+* Estruture o mamual do [comando PING](https://ifpb.github.io/html-exercises/html/man-ping/) em HTML ([Fonte](https://linux.die.net/man/8/ping))
+* Escolha algum manual do [GNU Manuals Online](https://www.gnu.org/manual/manual.html) ou do [Debian](https://www.debian.org/doc/) para tentar reproduzi-lo parcialmente.
 
 ## \# 03 - Estilo com CSS (30/03/2018)
 ---
@@ -52,5 +53,5 @@
   - Media query
 
 **Exercício:**
-* Estilizando o mamual do comando PING em CSS
-  * [Proposta](https://ifpb.github.io/html-guide/css/man-page/) de [Miguel Cabral](https://github.com/BelarminoM)
+* Estilizando o mamual do comando PING em CSS:
+  * [Proposta](https://ifpb.github.io/html-exercises/css/man-ping/) de [Miguel Cabral](https://github.com/BelarminoM)
