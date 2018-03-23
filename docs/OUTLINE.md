@@ -10,7 +10,7 @@
 **Conteúdo:**
 - Apresentação da disciplina:
   - Objetivo, conteúdo, avaliação, comunicação, bibliografia e ferramentas
-  - [O que você vai aprender em LS?](http://slides.com/luizcarlos/o-que-vou-aprender-em-ls#/)
+  - [O que você vai aprender em DW?](http://slides.com/luizcarlos/o-que-vou-aprender-em-dw#/)
   - Conteúdo
     - Fundamento e finalidade do frontend (HTML, CSS, JS) e backend (PHP, MySQL)
     - Exibindo a [arquitetura da Web](https://www.youtube.com/watch?v=guvsH5OFizE) (Tripé: URL, HTTP, HTML)
@@ -38,7 +38,7 @@
 **Exercício:**
 * Reconstruindo a [Primeira Página da Web](https://ifpb.github.io/html-exercises/challenges/first-web-page/)
 * [Inspecionando uma página na Web](https://ifpb.github.io/html-exercises/challenges/inspect-page/)
-* Estruturando o mamual do [comando PING](https://linux.die.net/man/8/ping) em HTML
+* Estruturando o mamual do [comando PING](https://ifpb.github.io/html-guide/css/man-page/) em HTML ([Fonte](https://linux.die.net/man/8/ping))
 
 ## \# 03 - Estilo com CSS (30/03/2018)
 ---
@@ -53,4 +53,4 @@
 
 **Exercício:**
 * Estilizando o mamual do comando PING em CSS
-  * [Proposta]() de [Miguel Cabral](https://github.com/BelarminoM)
+  * [Proposta](https://ifpb.github.io/html-guide/css/man-page/) de [Miguel Cabral](https://github.com/BelarminoM)
