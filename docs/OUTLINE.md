@@ -1,8 +1,8 @@
 # Roteiro das Aulas
 
-[\# 01 - Apresentação da Disciplina (16/03/2018)](#-01---apresentação-da-disciplina-22032018)<br>
-[\# 02 - Estrutura com HTML (23/03/2018)](#-02---estrutura-com-html-29032018)<br>
-[\# 03 - Estilo com CSS (30/03/2018)](#-03---estilo-com-css-06102018)<br>
+[\# 01 - Apresentação da Disciplina (16/03/2018)](#-01---apresentação-da-disciplina-16032018)<br>
+[\# 02 - Estrutura com HTML (23/03/2018)](#-02---estrutura-com-html-23032018)<br>
+[\# 03 - Estilo com CSS (06/04/2018)](#-03---estilo-com-css-06042018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -13,11 +13,11 @@
   - [O que você vai aprender em DW?](http://slides.com/luizcarlos/o-que-vou-aprender-em-dw#/)
   - Conteúdo
     - Fundamento e finalidade do frontend (HTML, CSS, JS) e backend (PHP, MySQL)
-    - Exibindo a [arquitetura da Web](https://www.youtube.com/watch?v=guvsH5OFizE) (Tripé: URL, HTTP, HTML)
-    - Fundamentos de uma Linguagem de Marcação: [slide](https://ifpb.github.io/html-guide/slides/markup.pdf) e [guide](https://ifpb.github.io/html-guide/markup/)
+    - Exibindo a [arquitetura da Web](https://www.youtube.com/watch?v=guvsH5OFizE) (Tripé: URL, HTTP, HTML; [slide](https://ifpb.github.io/web-guide/slides/web.pdf))
+    - Fundamentos de uma Linguagem de Marcação ([guide](https://ifpb.github.io/html-guide/markup/))
 
 **Exercício:**
-* Analisar o [site da discplina](https://ifpb.github.io/lm/) e se inscrever no channel `#lm20181` do [slack do ifpb](https://ifpb.slack.com).
+* Analisar o [site da discplina](https://ifpb.github.io/lm/) e se inscrever no channel `#dw20181` do [slack do ifpb](https://ifpb.slack.com).
 * Configurar seu computador com essas [ferramentas](TOOLS.md).
 * Descreva o que acontecer ao acessar uma página da Web, como a do [IFPB](http://www.ifpb.edu.br)
 * Pesquisar sobre a evolução da Web.
@@ -38,14 +38,14 @@
 **Exercício:**
 * Reconstrua a [Primeira Página da Web](https://ifpb.github.io/html-exercises/challenges/first-web-page/)
 * [Inspecione uma página na Web](https://ifpb.github.io/html-exercises/challenges/inspect-page/)
-* Estruture o mamual do [comando PING](https://ifpb.github.io/html-exercises/html/man-ping/) em HTML ([Fonte](https://linux.die.net/man/8/ping))
+* Estruture o manual do [comando PING](https://ifpb.github.io/html-exercises/html/man-ping/) em HTML ([Fonte](https://linux.die.net/man/8/ping))
 * Escolha algum manual do [GNU Manuals Online](https://www.gnu.org/manual/manual.html) ou do [Debian](https://www.debian.org/doc/) para tentar reproduzi-lo parcialmente.
 
-## \# 03 - Estilo com CSS (30/03/2018)
+## \# 03 - Estilo com CSS (06/04/2018)
 ---
 
 **Conteúdo:**
-- CSS
+- [CSS](https://ifpb.github.io/css-guide/css/)
   - Propriedades
   - Seletores
   - Funções
@@ -53,5 +53,5 @@
   - Media query
 
 **Exercício:**
-* Estilize o mamual do comando PING em CSS:
-  * [Proposta](https://ifpb.github.io/html-exercises/css/man-ping/) de [Miguel Cabral](https://github.com/BelarminoM)
+* Estilize o mamual do comando Ping em CSS:
+  * [Proposta](https://ifpb.github.io/css-exercises/css/man-ping/) de [Miguel Cabral](https://github.com/BelarminoM)
