@@ -53,5 +53,8 @@
   - Media query
 
 **Exercício:**
+* [Criando seu primeiro estilo](https://ifpb.github.io/css-exercises/challenges/hello-world-css/)
+* [Selecionando elmentos no HTML](https://ifpb.github.io/css-exercises/challenges/selector-css/)
+* [Curriculum Vitae com Estilo](https://ifpb.github.io/css-exercises/challenges/curriculum-style-text/)
 * Estilize o mamual do comando Ping em CSS:
   * [Proposta](https://ifpb.github.io/css-exercises/css/man-ping/) de [Miguel Cabral](https://github.com/BelarminoM)
