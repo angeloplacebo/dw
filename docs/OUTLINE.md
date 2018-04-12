@@ -46,15 +46,67 @@
 
 **Conteúdo:**
 - [CSS](https://ifpb.github.io/css-guide/css/)
-  - Propriedades
-  - Seletores
-  - Funções
-  - At-rules
-  - Media query
+  - Sintaxe
+    - Propriedades
+    - Seletores
+    - Funções
+    - At-rules
+    - Media query
+  - Herança no CSS
+- [Inspecionando estilos dos Elementos](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/): Analisando e editando estilos
 
 **Exercício:**
 * [Criando seu primeiro estilo](https://ifpb.github.io/css-exercises/challenges/hello-world-css/)
-* [Selecionando elmentos no HTML](https://ifpb.github.io/css-exercises/challenges/selector-css/)
+* [Selecionando elementos no HTML](https://ifpb.github.io/css-exercises/challenges/selector-css/)
 * [Curriculum Vitae com Estilo](https://ifpb.github.io/css-exercises/challenges/curriculum-style-text/)
 * Estilize o mamual do comando Ping em CSS:
   * [Proposta](https://ifpb.github.io/css-exercises/css/man-ping/) de [Miguel Cabral](https://github.com/BelarminoM)
+
+## \# 04 - Criando Dashboard Admin (13/04/2018)
+---
+
+**Conteúdo:**
+- CSS
+  - [Tipografia](https://ifpb.github.io/css-guide/css/typography.html)
+  - [Box Model](https://ifpb.github.io/css-guide/css/box-model.html)
+- Uso de bibliotecas no CSS
+  - [Web Fontes](https://ifpb.github.io/css-guide/css/web-font.html)
+  - [Ícones](https://ifpb.github.io/css-guide/css/icon.html)
+  - [Bootstrap](https://ifpb.github.io/css-guide/packages/bootstrap/)
+
+**Reflexão:**
+
+* Quais estilos podemos aplicar em um texto?
+* O que é um elemento de bloco e de linha?
+* Que configurações de tamanho podemos aplicar em um elemento de bloco?
+* Como utilizamos fontes do Google Fonts?
+* Como utilizamos ícones?
+* Como reutilizar estilos de terceiros, como do Bootstrap?
+* Quais são os prós e contras de utilizar o Bootstrap?
+
+**Exercício:**
+* [Estilizando Tabelas](https://ifpb.github.io/css-exercises/challenges/table-css/)
+* [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
+  * [Proposta](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
+
+<!-- 
+## \# 05 - Criando Dashboard Admin (20/04/2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+* Simulado de HTML e CSS
+  *[Simulado I](../exams/simulado-html-css)
+    * Proposta de [Walisson Silva](https://github.com/walissonsilva): [exams/simulado-html-css/](../exams/simulado-html-css/site-response/walisson/)
+  *[Simulado II](../exams/simulado-html-css)
+
+
+## \# 06 - Avalição de HTML e CSS (27/04/2018)
+
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)
+
+> Além da avaliação será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
+ -->
