@@ -3,6 +3,7 @@
 [\# 01 - Apresentação da Disciplina (16/03/2018)](#-01---apresentação-da-disciplina-16032018)<br>
 [\# 02 - Estrutura com HTML (23/03/2018)](#-02---estrutura-com-html-23032018)<br>
 [\# 03 - Estilo com CSS (06/04/2018)](#-03---estilo-com-css-06042018)<br>
+[\# 04 - Criando Dashboard Admin (13/04/2018)](#-04---criando-dashboard-admin-13042018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -81,10 +82,12 @@
 * Que configurações de tamanho podemos aplicar em um elemento de bloco?
 * Como utilizamos fontes do Google Fonts?
 * Como utilizamos ícones?
+* Que estilos podemos aplicar em uma tabela?
 * Como reutilizar estilos de terceiros, como do Bootstrap?
 * Quais são os prós e contras de utilizar o Bootstrap?
 
 **Exercício:**
+* Analise o Box Model desses [títulos](https://ifpb.github.io/css-guide/css/box-model/index.html)
 * [Estilizando Tabelas](https://ifpb.github.io/css-exercises/challenges/table-css/)
 * [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
   * [Proposta](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
