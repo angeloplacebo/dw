@@ -103,9 +103,9 @@
 * [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
   * [Proposta](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
 * Simulado de HTML e CSS:
-  * [Simulado I](https://ifpb.github.io/css-exercises/ez-server-monitor/)
-    * Proposta de [Walisson Silva](https://github.com/walissonsilva): [css-exercises/ez-server-monitor/site-response/walisson/](https://ifpb.github.io/css-exercises/ez-server-monitor/site-response/walisson/)
-  *[Simulado II](https://ifpb.github.io/css-exercises/pingdom-monitor/)
+  * [Simulado I](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/)
+    * Proposta de [Walisson Silva](https://github.com/walissonsilva): [css-exercises/challenges/packages/ez-server-monitor/site-response/walisson/](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/site-response/walisson/)
+  * [Simulado II](https://ifpb.github.io/css-exercises/challenges/packages/pingdom-monitor/)
 
 <!-- 
 ## \# 06 - Avalição de HTML e CSS (27/04/2018)
