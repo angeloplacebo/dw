@@ -38,8 +38,8 @@
 - [Referências dos Elementos no MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/)
 
 **Exercício:**
-* Reconstrua a [Primeira Página da Web](https://ifpb.github.io/html-exercises/challenges/first-web-page/)
-* [Inspecione uma página na Web](https://ifpb.github.io/html-exercises/challenges/inspect-page/)
+* Reconstrua a [Primeira Página da Web](https://ifpb.github.io/html-exercises/html/first-web-page/)
+* [Inspecione uma página na Web](https://ifpb.github.io/html-exercises/html/inspect-page/)
 * Estruture o manual do [comando PING](https://ifpb.github.io/html-exercises/html/man-ping/) em HTML ([Fonte](https://linux.die.net/man/8/ping))
 * Escolha algum manual do [GNU Manuals Online](https://www.gnu.org/manual/manual.html) ou do [Debian](https://www.debian.org/doc/) para tentar reproduzi-lo parcialmente.
 
@@ -58,9 +58,9 @@
 - [Inspecionando estilos dos Elementos](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/): Analisando e editando estilos
 
 **Exercício:**
-* [Criando seu primeiro estilo](https://ifpb.github.io/css-exercises/challenges/hello-world-css/)
-* [Selecionando elementos no HTML](https://ifpb.github.io/css-exercises/challenges/selector-css/)
-* [Curriculum Vitae com Estilo](https://ifpb.github.io/css-exercises/challenges/curriculum-style-text/)
+* [Criando seu primeiro estilo](https://ifpb.github.io/css-exercises/css/hello-world-css/)
+* [Selecionando elementos no HTML](https://ifpb.github.io/css-exercises/css/selector-css/)
+* [Curriculum Vitae com Estilo](https://ifpb.github.io/css-exercises/css/curriculum-style-text/)
 * Estilize o mamual do comando Ping em CSS:
   * [Proposta](https://ifpb.github.io/css-exercises/css/man-ping/) de [Miguel Cabral](https://github.com/BelarminoM)
 
@@ -87,7 +87,7 @@
 
 **Exercício:**
 * Analise o Box Model desses [títulos](https://ifpb.github.io/css-guide/css/box-model/index.html)
-* [Estilizando Tabelas](https://ifpb.github.io/css-exercises/challenges/table-css/)
+* [Estilizando Tabelas](https://ifpb.github.io/css-exercises/css/table-css/)
 
 ## \# 05 - Criando Dashboard Admin (20/04/2018)
 ---
@@ -102,10 +102,10 @@
 **Exercício:**
 * [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
   * [Proposta](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
-* Simulado de HTML e CSS
-  *[Simulado I](../exams/simulado-html-css)
-    * Proposta de [Walisson Silva](https://github.com/walissonsilva): [exams/simulado-html-css/](../exams/simulado-html-css/site-response/walisson/)
-  *[Simulado II](../exams/simulado-html-css)
+* Simulado de HTML e CSS:
+  * [Simulado I](https://ifpb.github.io/css-exercises/ez-server-monitor/)
+    * Proposta de [Walisson Silva](https://github.com/walissonsilva): [css-exercises/ez-server-monitor/site-response/walisson/](https://ifpb.github.io/css-exercises/ez-server-monitor/site-response/walisson/)
+  *[Simulado II](https://ifpb.github.io/css-exercises/pingdom-monitor/)
 
 <!-- 
 ## \# 06 - Avalição de HTML e CSS (27/04/2018)
