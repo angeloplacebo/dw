@@ -103,14 +103,137 @@
 * [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
   * [Proposta](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
 * Simulado de HTML e CSS:
-  * [Simulado I](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/)
+  * [Host Monitor](https://ifpb.github.io/css-exercises/challenges/packages/host-monitor/)
+  * [eZ Server Monitor](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/)
     * Proposta de [Walisson Silva](https://github.com/walissonsilva): [css-exercises/challenges/packages/ez-server-monitor/site-response/walisson/](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/site-response/walisson/)
-  * [Simulado II](https://ifpb.github.io/css-exercises/challenges/packages/pingdom-monitor/)
+  * [Pingdom Monitor](https://ifpb.github.io/css-exercises/challenges/packages/pingdom-monitor/)
 
 <!-- 
 ## \# 06 - Avalição de HTML e CSS (27/04/2018)
+---
 
 > Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)
 
 > Além da avaliação será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
+
+## \# 07 - Introdução ao Javascript (//2018)
+---
+
+**Conteúdo:**
+- Formulário
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 08 - Geração Dinâmica com JS (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 09 - Consumindo JSON e Pacotes JS (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+
+## \# 10 - Simulado de Javascript (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 11 - Avaliação de JS (//2018)
+---
+
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js/)
+
+> Além da avaliação será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
+
+## \# 12 - Fundamentos do PHP (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 13 - APIs em PHP (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 14 - Acompanhamento de Projetos (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 15 - API dos Projetos (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 16 - MySQL & PHP PDO (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 17 -  (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 18 -  (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 19 -  (//2018)
+---
+
+**Conteúdo:**
+
+**Reflexão:**
+
+**Exercício:**
+
+## \# 20 - Prova e Projeto Final (//2018)
+---
+
  -->
