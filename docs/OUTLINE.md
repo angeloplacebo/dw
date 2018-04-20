@@ -104,11 +104,11 @@
 
 **Exercício:**
 * [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
-  * [Proposta](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
+  * [Proposta](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/response/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
 * Simulado de HTML e CSS:
   * [Host Monitor](https://ifpb.github.io/css-exercises/challenges/packages/host-monitor/)
   * [eZ Server Monitor](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/)
-    * Proposta de [Walisson Silva](https://github.com/walissonsilva): [css-exercises/challenges/packages/ez-server-monitor/site-response/walisson/](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/site-response/walisson/)
+    * [Proposta](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/site-response/walisson/) de [Walisson Silva](https://github.com/walissonsilva)
   * [Pingdom Monitor](https://ifpb.github.io/css-exercises/challenges/packages/pingdom-monitor/)
 
 <!-- 
