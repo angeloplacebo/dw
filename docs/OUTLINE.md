@@ -100,11 +100,11 @@
 * Como habilitamos o Bootstrap no HTML e CSS?
 * Com o Bootstrap é possível normalizar o estilo do seu HTML?
 * É possível definir alguma layout usando Bootstrap?
-* Qual é a diferença entre `Content`  `Components`?
+* Qual é a diferença entre `Content` e `Components` no Bootstrap?
 
 **Exercício:**
 * [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
-  * [Proposta](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/response/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
+  * [Proposta do Ample Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/response/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
 * Simulado de HTML e CSS:
   * [Host Monitor](https://ifpb.github.io/css-exercises/challenges/packages/host-monitor/)
   * [eZ Server Monitor](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/)
