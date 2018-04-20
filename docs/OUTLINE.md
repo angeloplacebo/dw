@@ -3,7 +3,7 @@
 [\# 01 - Apresentação da Disciplina (16/03/2018)](#-01---apresentação-da-disciplina-16032018)<br>
 [\# 02 - Estrutura com HTML (23/03/2018)](#-02---estrutura-com-html-23032018)<br>
 [\# 03 - Estilo com CSS (06/04/2018)](#-03---estilo-com-css-06042018)<br>
-[\# 04 - Criando Dashboard Admin (13/04/2018)](#-04---criando-dashboard-admin-13042018)<br>
+[\# 04 - Estilizando texto e box (13/04/2018)](#-04---estilizando-texto-e-box-13042018)<br>
 [\# 05 - Criando Dashboard Admin (20/04/2018)](#-05---criando-dashboard-admin-20042018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
@@ -64,7 +64,7 @@
 * Estilize o mamual do comando Ping em CSS:
   * [Proposta](https://ifpb.github.io/css-exercises/css/man-ping/) de [Miguel Cabral](https://github.com/BelarminoM)
 
-## \# 04 - Criando Dashboard Admin (13/04/2018)
+## \# 04 - Estilizando texto e box (13/04/2018)
 ---
 
 **Conteúdo:**
@@ -74,7 +74,6 @@
 - Uso de bibliotecas no CSS
   - [Web Fontes](https://ifpb.github.io/css-guide/css/web-font.html)
   - [Ícones](https://ifpb.github.io/css-guide/css/icon.html)
-  
 
 **Reflexão:**
 
@@ -96,8 +95,12 @@
 - [Bootstrap](https://ifpb.github.io/css-guide/packages/bootstrap/)
 
 **Reflexão:**
-* Como reutilizar estilos de terceiros, como do Bootstrap?
+* Como reutilizar estilos de terceiros?
 * Quais são os prós e contras de utilizar o Bootstrap?
+* Como habilitamos o Bootstrap no HTML e CSS?
+* Com o Bootstrap é possível normalizar o estilo do seu HTML?
+* É possível definir alguma layout usando Bootstrap?
+* Qual é a diferença entre `Content`  `Components`?
 
 **Exercício:**
 * [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
