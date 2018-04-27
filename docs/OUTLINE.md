@@ -5,6 +5,7 @@
 [\# 03 - Estilo com CSS (06/04/2018)](#-03---estilo-com-css-06042018)<br>
 [\# 04 - Estilizando texto e box (13/04/2018)](#-04---estilizando-texto-e-box-13042018)<br>
 [\# 05 - Criando Dashboard Admin (20/04/2018)](#-05---criando-dashboard-admin-20042018)<br>
+[\# 06 - Avalição de HTML e CSS (27/04/2018)](#-06---avalição-de-html-e-css-27042018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -114,9 +115,9 @@
 ## \# 06 - Avalição de HTML e CSS (27/04/2018)
 ---
 
-> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)<br>
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css.md)<br>
 > <br>
-> Além da avaliação será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
+> Além da avaliação, será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
 
 <!-- 
 ## \# 07 - Introdução ao Javascript (//2018)

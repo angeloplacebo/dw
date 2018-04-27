@@ -56,7 +56,7 @@ Para facilitar a listagem dos temas, todos os interessados devem declarar suas p
 > <b>Membros</b>: Nome do Aluno - Matrícula<br>
 > <b>Repositório</b>: https://github.com/username/repo
 
-## Exigências do Projeto
+## Requisitos
 ---
 
 Nesta seção será apresentado as exigências do projeto que nortearam os critérios de avaliação que definiram a pontuação final.
@@ -112,7 +112,7 @@ Ocorrerão penalizações na falta de usabilidade, domínio do projeto e de cump
   * Não seja apresentado na data marcada;
   * Não seja entregue o endereço do repositório contendo todo o código fonte e material exigido.
 
-## Apresentação Final do Projeto
+## Apresentação Final
 ---
 
 O projeto deverá ser entregue no último dia de aula da disciplina através de um projeto no github, e cada integrante deverá apresentar individualmente suas implementações no projeto,  de tal forma que a nota final será computada seguindo as exigências do projeto.
