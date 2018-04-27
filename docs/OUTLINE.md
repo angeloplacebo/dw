@@ -115,9 +115,9 @@
 ## \# 06 - Avalição de HTML e CSS (27/04/2018)
 ---
 
-> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css.md)<br>
+> [Avaliação de HTML e CSS](../exams/prova-html-css.md)<br>
 > <br>
-> Além da avaliação, será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
+> Especificação do [Projeto Final](../exams/projeto.md)
 
 <!-- 
 ## \# 07 - Introdução ao Javascript (//2018)
