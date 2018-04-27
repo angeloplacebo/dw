@@ -108,17 +108,17 @@
 * Simulado de HTML e CSS:
   * [Host Monitor](https://ifpb.github.io/css-exercises/challenges/packages/host-monitor/)
   * [eZ Server Monitor](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/)
-    * [Proposta](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/site-response/walisson/) de [Walisson Silva](https://github.com/walissonsilva)
+    * [Proposta](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/code-response/walisson/) de [Walisson Silva](https://github.com/walissonsilva)
   * [Pingdom Monitor](https://ifpb.github.io/css-exercises/challenges/packages/pingdom-monitor/)
 
-<!-- 
 ## \# 06 - Avalição de HTML e CSS (27/04/2018)
 ---
 
-> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)
-
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)<br>
+> <br>
 > Além da avaliação será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
 
+<!-- 
 ## \# 07 - Introdução ao Javascript (//2018)
 ---
 
