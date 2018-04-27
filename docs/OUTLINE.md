@@ -107,10 +107,10 @@
 * [Criando Dashboard Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/)
   * [Proposta do Ample Admin](https://ifpb.github.io/css-exercises/packages/bootstrap/dashboard-admin/response/ample-admin-walisson) de [Walisson Silva](https://github.com/walissonsilva)
 * Simulado de HTML e CSS:
-  * [Host Monitor](https://ifpb.github.io/css-exercises/challenges/packages/host-monitor/)
-  * [eZ Server Monitor](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/)
-    * [Proposta](https://ifpb.github.io/css-exercises/challenges/packages/ez-server-monitor/code-response/walisson/) de [Walisson Silva](https://github.com/walissonsilva)
-  * [Pingdom Monitor](https://ifpb.github.io/css-exercises/challenges/packages/pingdom-monitor/)
+  * [Host Monitor](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/host-monitor/)
+  * [eZ Server Monitor](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/ez-server-monitor/)
+    * [Proposta](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/ez-server-monitor/code-response/walisson/) de [Walisson Silva](https://github.com/walissonsilva)
+  * [Pingdom Monitor](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/pingdom-monitor/)
 
 ## \# 06 - Avalição de HTML e CSS (27/04/2018)
 ---
