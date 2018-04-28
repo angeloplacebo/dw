@@ -50,11 +50,11 @@
 **Conteúdo:**
 - [CSS](https://ifpb.github.io/css-guide/css/)
   - Sintaxe
-    - Propriedades
-    - Seletores
-    - Funções
-    - At-rules
-    - Media query
+    - [Propriedades](https://ifpb.github.io/css-guide/css/properties.html)
+    - [Seletores](https://ifpb.github.io/css-guide/css/selectors.html)
+    - [Funções](https://ifpb.github.io/css-guide/css/functions.html)
+    - [At-rules](https://ifpb.github.io/css-guide/css/at-rules.html)
+    - [Media query](https://ifpb.github.io/css-guide/css/media-queries.html)
   - Herança no CSS
 - [Inspecionando estilos dos Elementos](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/): Analisando e editando estilos
 
@@ -119,7 +119,6 @@
 > <br>
 > Especificação do [Projeto Final](../exams/projeto.md)
 
-<!-- 
 ## \# 07 - Introdução ao Javascript (//2018)
 ---
 
@@ -130,6 +129,7 @@
 
 **Exercício:**
 
+<!-- 
 ## \# 08 - Geração Dinâmica com JS (//2018)
 ---
 
