@@ -6,6 +6,7 @@
 [\# 04 - Estilizando texto e box (13/04/2018)](#-04---estilizando-texto-e-box-13042018)<br>
 [\# 05 - Criando Dashboard Admin (20/04/2018)](#-05---criando-dashboard-admin-20042018)<br>
 [\# 06 - Avalição de HTML e CSS (27/04/2018)](#-06---avalição-de-html-e-css-27042018)<br>
+[\# 07 - Introdução ao Javascript (04/05/2018)](#-07---introdução-ao-javascript-04052018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -119,15 +120,58 @@
 > <br>
 > Especificação do [Projeto Final](../exams/projeto.md)
 
-## \# 07 - Introdução ao Javascript (//2018)
+## \# 07 - Introdução ao Javascript (04/05/2018)
 ---
 
 **Conteúdo:**
 - Formulário
+  - [Estrutura](https://ifpb.github.io/html-guide/html/form.html)
+  - [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/)
+- [EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
+  - [Variável](https://ifpb.github.io/javascript-guide/ecma/variable/)
+  - [Tipos](https://ifpb.github.io/javascript-guide/ecma/)
+  - [Expressões e operadores](https://ifpb.github.io/javascript-guide/ecma/expression-and-operator/)
+  - [Estrutura de Decisão](https://ifpb.github.io/javascript-guide/ecma/statements-and-declarations/)
+  - [Funções](https://ifpb.github.io/javascript-guide/ecma/function/)
+- [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
+  - [Running Javascript in Browser](https://ifpb.github.io/javascript-guide/w3c/running-javascript-browser/)
+  - [Window](https://ifpb.github.io/javascript-guide/w3c/window/window.html)
+  - [DOM](https://ifpb.github.io/javascript-guide/w3c/dom/) 
+    - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html)
+    - [Document](https://ifpb.github.io/javascript-guide/w3c/dom/document.html)
+    - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html)
+  - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/)
+    - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html)
+    - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html)
+  - [Javascript Web APIs](https://ifpb.github.io/javascript-guide/w3c/)
+    - [FormData](https://ifpb.github.io/javascript-guide/w3c/form-data/)
 
 **Reflexão:**
+* Por que o Javascript pode ser divido em recursos do EcmaScript e W3C?
+* Como declaramos variáveis no Javascript?
+* Quais são os tipos primitivos e objetos do Javascript?
+* Quais são os operadores do Javascript? Como podemos montamos expressões?
+* Como executamos código Javascript?
+* O que acontece quando passamos uma quantidade de argumentos diferente do total de parâmetros?
+* Para chamar uma função é necessário declará-lo antes de sua chamada?
+* O que são parâmetros default?
+* 
 
 **Exercício:**
+* Crie um script para:
+  * Através de `const x = 10` definir `x+2`
+  * Através de `const x = 10` definir `x²`
+  * Através de `const x = 10` definir `3x²+12x-4`
+  * Através de `const x = 10` definir `x+3 > √x`
+* Crie o algoritmo de [Body Mass Index (BMI)](https://ifpb.github.io/javascript-exercises/ecma/basic/bmi/) usando `if` e `switch`
+* Crie o algoritmo para exibir a séria de [00 até 99](https://ifpb.github.io/javascript-exercises/ecma/basic/numbers/) de dez em dez usando `for`, `while` e `do-while`.
+* Crie um script para:
+  * [Somar](https://ifpb.github.io/javascript-exercises/ecma/function/sum/)
+  * [Calcular a área do círculo](https://ifpb.github.io/javascript-exercises/ecma/function/area-of-circle/)
+  * [Calcular operações aritméticas básicas](https://ifpb.github.io/javascript-exercises/ecma/function/calc/)
+* Crie uma interface para:
+  * BMI
+  * Calculadora
 
 <!-- 
 ## \# 08 - Geração Dinâmica com JS (//2018)
