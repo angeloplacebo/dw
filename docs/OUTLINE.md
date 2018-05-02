@@ -140,13 +140,14 @@
     - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html)
     - [Document](https://ifpb.github.io/javascript-guide/w3c/dom/document.html)
     - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html)
+    - [HTML Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-element.html)
+    - [HTML Input Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-input-element.html)
   - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/)
     - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html)
     - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html)
-  - [Javascript Web APIs](https://ifpb.github.io/javascript-guide/w3c/)
-    - [FormData](https://ifpb.github.io/javascript-guide/w3c/form-data/)
 
 **Reflexão:**
+* Para que serve os formulários e como estruturamos um?
 * Por que o Javascript pode ser divido em recursos do EcmaScript e W3C?
 * Como declaramos variáveis no Javascript?
 * Quais são os tipos primitivos e objetos do Javascript?
@@ -154,8 +155,12 @@
 * Como executamos código Javascript?
 * O que acontece quando passamos uma quantidade de argumentos diferente do total de parâmetros?
 * Para chamar uma função é necessário declará-lo antes de sua chamada?
-* O que são parâmetros default?
-* 
+* O que são parâmetros default dentro das funções no Javascript?
+* Como integramos Javascript com HTML no Browser?
+* É possível acessar recusos do Navegador com o Javascript? Por exemplo, é possivel acessar os botões de navegaçõa de histórico?
+* Por que a árvore DOM é tão importante para o Javascript?
+* Um Elemento no HTML pode ser analisado como sendo mais de um objeto no DOM?
+* Como atibuímos um evento em um botão no Javascript?
 
 **Exercício:**
 * Crie um script para:
@@ -169,9 +174,9 @@
   * [Somar](https://ifpb.github.io/javascript-exercises/ecma/function/sum/)
   * [Calcular a área do círculo](https://ifpb.github.io/javascript-exercises/ecma/function/area-of-circle/)
   * [Calcular operações aritméticas básicas](https://ifpb.github.io/javascript-exercises/ecma/function/calc/)
-* Crie uma interface para:
-  * BMI
-  * Calculadora
+* Crie uma interface Web para:
+  * [BMI](https://ifpb.github.io/javascript-exercises/w3c/bmi-simple/)
+  * [Calculadora](https://ifpb.github.io/javascript-exercises/w3c/calculator/)
 
 <!-- 
 ## \# 08 - Geração Dinâmica com JS (//2018)
