@@ -168,9 +168,7 @@
   * Através de `const x = 10` definir `x²`
   * Através de `const x = 10` definir `3x²+12x-4`
   * Através de `const x = 10` definir `x+3 > √x`
-* Crie o algoritmo de [Body Mass Index (BMI)](https://ifpb.github.io/javascript-exercises/ecma/basic/bmi/) usando `if` e `switch`
-* Crie o algoritmo para exibir a séria de [00 até 99](https://ifpb.github.io/javascript-exercises/ecma/basic/numbers/) de dez em dez usando `for`, `while` e `do-while`.
-* Crie um script para:
+  * Calcular o [IMC](https://ifpb.github.io/javascript-exercises/ecma/basic/bmi/) usando `if` e `switch`
   * [Somar](https://ifpb.github.io/javascript-exercises/ecma/function/sum/)
   * [Calcular a área do círculo](https://ifpb.github.io/javascript-exercises/ecma/function/area-of-circle/)
   * [Calcular operações aritméticas básicas](https://ifpb.github.io/javascript-exercises/ecma/function/calc/)
@@ -187,6 +185,8 @@
 **Reflexão:**
 
 **Exercício:**
+
+* Crie o algoritmo para exibir a séria de [00 até 99](https://ifpb.github.io/javascript-exercises/ecma/basic/numbers/) de dez em dez usando `for`, `while` e `do-while`.
 
 ## \# 09 - Consumindo JSON e Pacotes JS (//2018)
 ---
