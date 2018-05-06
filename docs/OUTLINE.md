@@ -7,6 +7,7 @@
 [\# 05 - Criando Dashboard Admin (20/04/2018)](#-05---criando-dashboard-admin-20042018)<br>
 [\# 06 - Avalição de HTML e CSS (27/04/2018)](#-06---avalição-de-html-e-css-27042018)<br>
 [\# 07 - Introdução ao Javascript (04/05/2018)](#-07---introdução-ao-javascript-04052018)<br>
+[\# 08 - Geração Dinâmica com JS (11/05/2018)](#-08---geração-dinâmica-com-js-11052018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -51,11 +52,11 @@
 **Conteúdo:**
 - [CSS](https://ifpb.github.io/css-guide/css/)
   - Sintaxe
-    - [Propriedades](https://ifpb.github.io/css-guide/css/properties.html)
-    - [Seletores](https://ifpb.github.io/css-guide/css/selectors.html)
-    - [Funções](https://ifpb.github.io/css-guide/css/functions.html)
-    - [At-rules](https://ifpb.github.io/css-guide/css/at-rules.html)
-    - [Media query](https://ifpb.github.io/css-guide/css/media-queries.html)
+    - [Propriedades](https://ifpb.github.io/css-guide/css/property/)
+    - [Seletores](https://ifpb.github.io/css-guide/css/selector/)
+    - [Funções](https://ifpb.github.io/css-guide/css/function/)
+    - [At-rules](https://ifpb.github.io/css-guide/css/at-rule/)
+    - [Media query](https://ifpb.github.io/css-guide/css/media-query/)
   - Herança no CSS
 - [Inspecionando estilos dos Elementos](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/): Analisando e editando estilos
 
@@ -71,11 +72,11 @@
 
 **Conteúdo:**
 - CSS
-  - [Tipografia](https://ifpb.github.io/css-guide/css/typography.html)
-  - [Box Model](https://ifpb.github.io/css-guide/css/box-model.html)
+  - [Tipografia](https://ifpb.github.io/css-guide/css/typography/)
+  - [Box Model](https://ifpb.github.io/css-guide/css/box-model/)
 - Uso de bibliotecas no CSS
-  - [Web Fontes](https://ifpb.github.io/css-guide/css/web-font.html)
-  - [Ícones](https://ifpb.github.io/css-guide/css/icon.html)
+  - [Web Fontes](https://ifpb.github.io/css-guide/css/web-font/)
+  - [Ícones](https://ifpb.github.io/css-guide/css/icon/)
 
 **Reflexão:**
 
@@ -87,7 +88,7 @@
 * Que estilos podemos aplicar em uma tabela?
 
 **Exercício:**
-* Analise o Box Model desses [títulos](https://ifpb.github.io/css-guide/css/box-model/index.html)
+* Analise o Box Model desses [títulos](https://ifpb.github.io/css-guide/css/box-model/)
 * [Estilizando Tabelas](https://ifpb.github.io/css-exercises/css/table-css/)
 
 ## \# 05 - Criando Dashboard Admin (20/04/2018)
@@ -124,42 +125,37 @@
 ---
 
 **Conteúdo:**
-- Formulário
-  - [Estrutura](https://ifpb.github.io/html-guide/html/form.html)
-  - [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/)
-- [EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
+- [Javascript EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
   - [Variável](https://ifpb.github.io/javascript-guide/ecma/variable/)
   - [Tipos](https://ifpb.github.io/javascript-guide/ecma/)
   - [Expressões e operadores](https://ifpb.github.io/javascript-guide/ecma/expression-and-operator/)
   - [Estrutura de Decisão](https://ifpb.github.io/javascript-guide/ecma/statements-and-declarations/)
   - [Funções](https://ifpb.github.io/javascript-guide/ecma/function/)
+- Formulário
+  - [Estrutura](https://ifpb.github.io/html-guide/html/form/)
+- Bootstrap
+  - [Form](https://getbootstrap.com/docs/4.1/components/forms/)
 - [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
   - [Running Javascript in Browser](https://ifpb.github.io/javascript-guide/w3c/running-javascript-browser/)
   - [Window](https://ifpb.github.io/javascript-guide/w3c/window/window.html)
   - [DOM](https://ifpb.github.io/javascript-guide/w3c/dom/) 
-    - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html)
     - [Document](https://ifpb.github.io/javascript-guide/w3c/dom/document.html)
     - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html)
     - [HTML Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-element.html)
     - [HTML Input Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-input-element.html)
-  - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/)
-    - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html)
-    - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html)
 
 **Reflexão:**
 * Para que serve os formulários e como estruturamos um?
 * Por que o Javascript pode ser divido em recursos do EcmaScript e W3C?
+* Como executamos código Javascript?
 * Como declaramos variáveis no Javascript?
 * Quais são os tipos primitivos e objetos do Javascript?
 * Quais são os operadores do Javascript? Como podemos montamos expressões?
-* Como executamos código Javascript?
 * O que acontece quando passamos uma quantidade de argumentos diferente do total de parâmetros?
 * Para chamar uma função é necessário declará-lo antes de sua chamada?
 * O que são parâmetros default dentro das funções no Javascript?
-* Como integramos Javascript com HTML no Browser?
+* Como integramos Javascript com HTML no Navegador?
 * É possível acessar recusos do Navegador com o Javascript? Por exemplo, é possivel acessar os botões de navegaçõa de histórico?
-* Por que a árvore DOM é tão importante para o Javascript?
-* Um Elemento no HTML pode ser analisado como sendo mais de um objeto no DOM?
 * Como atibuímos um evento em um botão no Javascript?
 
 **Exercício:**
@@ -173,20 +169,34 @@
   * [Calcular a área do círculo](https://ifpb.github.io/javascript-exercises/ecma/function/area-of-circle/)
   * [Calcular operações aritméticas básicas](https://ifpb.github.io/javascript-exercises/ecma/function/calc/)
 * Crie uma interface Web para:
+  * Este [formulário](https://ifpb.github.io/html-guide/html/form/#simple-form) usando a estilização do Bootstrap.
   * [BMI](https://ifpb.github.io/javascript-exercises/w3c/bmi-simple/)
   * [Calculadora](https://ifpb.github.io/javascript-exercises/w3c/calculator/)
 
 <!-- 
-## \# 08 - Geração Dinâmica com JS (//2018)
+## \# 08 - Geração Dinâmica com JS (11/05/2018)
 ---
 
 **Conteúdo:**
+- [EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
+  - [Estrutura de Repetição](https://ifpb.github.io/javascript-guide/ecma/statements-and-declarations/)
+  - [Tipos](https://ifpb.github.io/javascript-guide/ecma/)
+    - Array
+    - JSON
+  - Web API
+- [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
+  - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html)
+  - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/)
+    - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html)
+    - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html)
 
 **Reflexão:**
+* Por que a árvore DOM é tão importante para o Javascript?
+* Um Elemento no HTML pode ser analisado como sendo mais de um objeto no DOM?
 
 **Exercício:**
-
-* Crie o algoritmo para exibir a séria de [00 até 99](https://ifpb.github.io/javascript-exercises/ecma/basic/numbers/) de dez em dez usando `for`, `while` e `do-while`.
+* Crie um script para:
+  * Exibir a séria de [00 até 99](https://ifpb.github.io/javascript-exercises/ecma/basic/numbers/) de dez em dez usando `for`, `while` e `do-while`.
 
 ## \# 09 - Consumindo JSON e Pacotes JS (//2018)
 ---
