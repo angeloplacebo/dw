@@ -8,6 +8,7 @@
 [\# 06 - Avalição de HTML e CSS (27/04/2018)](#-06---avalição-de-html-e-css-27042018)<br>
 [\# 07 - Introdução ao Javascript (04/05/2018)](#-07---introdução-ao-javascript-04052018)<br>
 [\# 08 - Geração Dinâmica com JS (11/05/2018)](#-08---geração-dinâmica-com-js-11052018)<br>
+[\# 09 - Consumindo JSON e Pacotes JS (18/05/2018)](#-09---consumindo-json-e-pacotes-js-18052018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -139,10 +140,10 @@
   - [Running Javascript in Browser](https://ifpb.github.io/javascript-guide/w3c/running-javascript-browser/)
   - [Window](https://ifpb.github.io/javascript-guide/w3c/window/window.html)
   - [DOM](https://ifpb.github.io/javascript-guide/w3c/dom/) 
-    - [Document](https://ifpb.github.io/javascript-guide/w3c/dom/document.html)
-    - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html)
-    - [HTML Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-element.html)
-    - [HTML Input Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-input-element.html)
+    - [Document](https://ifpb.github.io/javascript-guide/w3c/dom/document.html): `querySelector()`
+    - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `innerHTML`
+    - [HTML Input Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-input-element.html): `checked`, `value`
+    - [Node (DOM tree)](https://ifpb.github.io/javascript-guide/w3c/dom/node.html)
 
 **Reflexão:**
 * Para que serve os formulários e como estruturamos um?
@@ -157,6 +158,8 @@
 * Como integramos Javascript com HTML no Navegador?
 * É possível acessar recusos do Navegador com o Javascript? Por exemplo, é possivel acessar os botões de navegaçõa de histórico?
 * Como atibuímos um evento em um botão no Javascript?
+* Por que a árvore DOM é tão importante para o Javascript?
+* Um Elemento no HTML pode ser analisado como sendo mais de um objeto no DOM?
 
 **Exercício:**
 * Crie um script para:
@@ -170,44 +173,86 @@
   * [Calcular operações aritméticas básicas](https://ifpb.github.io/javascript-exercises/ecma/function/calc/)
 * Crie uma interface Web para:
   * Este [formulário](https://ifpb.github.io/html-guide/html/form/#simple-form) usando a estilização do Bootstrap.
-  * [BMI](https://ifpb.github.io/javascript-exercises/w3c/bmi-simple/)
-  * [Calculadora](https://ifpb.github.io/javascript-exercises/w3c/calculator/)
+  * [IMC](https://ifpb.github.io/javascript-exercises/w3c/bmi-simple/)
 
-<!-- 
 ## \# 08 - Geração Dinâmica com JS (11/05/2018)
 ---
 
 **Conteúdo:**
 - [EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
-  - [Estrutura de Repetição](https://ifpb.github.io/javascript-guide/ecma/statements-and-declarations/)
-  - [Tipos](https://ifpb.github.io/javascript-guide/ecma/)
-    - Array
-    - JSON
-  - Web API
+  - [Estrutura de Repetição](https://ifpb.github.io/javascript-guide/ecma/statements-and-declarations/#iterations-dowhile-for-forin-forof-while)
+  - [Tipos](https://ifpb.github.io/javascript-guide/ecma/):
+    - String ([sintaxe](https://ifpb.github.io/javascript-guide/ecma/string/syntax.html), [objeto](https://ifpb.github.io/javascript-guide/ecma/string/object.html))
+    - Array ([sintaxe](https://ifpb.github.io/javascript-guide/ecma/array/syntax.html), [objeto](https://ifpb.github.io/javascript-guide/ecma/array/object.html))
+    - JSON ([sintaxe](https://ifpb.github.io/javascript-guide/ecma/json/syntax.html), [manipulação](https://ifpb.github.io/javascript-guide/ecma/object/syntax.html#changing-object), [iterando](https://ifpb.github.io/javascript-guide/ecma/object/syntax.html#object-interaction))
+  - [Funções Anônimas](https://ifpb.github.io/javascript-guide/ecma/function/#function-expression--anonymous-function)
 - [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
-  - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html)
+  - [HTML Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-element.html): `style`, `focus()`
+  - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `innerHTML`, `insertAdjacentHTML()`
   - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/)
-    - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html)
-    - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html)
+    - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html): `addEventListener()`
+    - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html): `onclick`
 
 **Reflexão:**
-* Por que a árvore DOM é tão importante para o Javascript?
-* Um Elemento no HTML pode ser analisado como sendo mais de um objeto no DOM?
+* Quais são as estruturas de repetição do Javascript?
+* No Javascript, como manipulamos (criar, alterar, iterar, ações) String, Array e JSON?
+* Como estruturamos dados compostos em Javascript?
+* O que são funções anônimas?
+* Como inserimos dados no HTML? Por exemplos, em um:
+  * `<input type="text">`
+  * `<div></div>`
+* Como inserimos um novo parágrafo no final da `<div>` a seguir sem recriar seus elementos internos?
+
+```html
+<div>
+  <p>Lorem ipsum dolor</p>
+  <p>Dolor ipsum lorem</p>
+</div>
+```
+
+* Como alteramos o estilo de um elemento no Javascript?
+* Como adicionamos eventos a um elemento selecionado?
 
 **Exercício:**
 * Crie um script para:
   * Exibir a séria de [00 até 99](https://ifpb.github.io/javascript-exercises/ecma/basic/numbers/) de dez em dez usando `for`, `while` e `do-while`.
+  * [Harmonic series](https://ifpb.github.io/javascript-exercises/ecma/basic/harmonic-series/)
+  * [Array Operation](https://ifpb.github.io/javascript-exercises/ecma/array/array-operations/)
+  * [Array Util](https://ifpb.github.io/javascript-exercises/ecma/array/array-util/)
+  * [List Generator](https://ifpb.github.io/javascript-exercises/ecma/string/list-generator/)
+  * [Table Generator](https://ifpb.github.io/javascript-exercises/ecma/string/table-generator/)
+  * [String Util](https://ifpb.github.io/javascript-exercises/ecma/string/string-util/)
+* Crie uma representação desse dado:
 
-## \# 09 - Consumindo JSON e Pacotes JS (//2018)
+| Host | Address | Mask |
+|-|-|-|
+| PC 1	| 192.168.0.1 |	255.255.255.0 |
+| Server	| 10.0.0.1 |	255.255.255.0 |
+
+* Crie uma interface Web para:
+  * [IMC com validação](https://ifpb.github.io/javascript-exercises/w3c/bmi-validator/)
+  * [Calculadora](https://ifpb.github.io/javascript-exercises/w3c/calculator/)
+  * [Gentelella App Versions](https://ifpb.github.io/javascript-exercises/w3c/gentelella-app-versions/)
+  * [Gentelella Top Tiles](https://ifpb.github.io/javascript-exercises/w3c/gentelella-top-tiles)
+
+## \# 09 - Consumindo JSON e Pacotes JS (18/05/2018)
 ---
 
 **Conteúdo:**
+- [Web API](https://ifpb.github.io/javascript-guide/ecma/json/syntax.html#web-api)
+- [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
+  - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html): `parentNode`
+  - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `innerHTML`, `insertAdjacentHTML()`, `remove()`
+  - [Fetch API]()
 
 **Reflexão:**
 
 **Exercício:**
+  * [Iptable](https://ifpb.github.io/javascript-exercises/w3c/iptable/)
+  * [IP Info 1](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-table-api/)
+  * [IP Info 2](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-api/)
 
-
+<!-- 
 ## \# 10 - Simulado de Javascript (//2018)
 ---
 
