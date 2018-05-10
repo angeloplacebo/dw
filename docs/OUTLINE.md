@@ -179,7 +179,7 @@
 ---
 
 **Conteúdo:**
-- [EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
+- [Javascript EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
   - [Estrutura de Repetição](https://ifpb.github.io/javascript-guide/ecma/statements-and-declarations/#iterations-dowhile-for-forin-forof-while)
   - [Tipos](https://ifpb.github.io/javascript-guide/ecma/):
     - String ([sintaxe](https://ifpb.github.io/javascript-guide/ecma/string/syntax.html), [objeto](https://ifpb.github.io/javascript-guide/ecma/string/object.html))
@@ -234,6 +234,10 @@
   * [Calculadora](https://ifpb.github.io/javascript-exercises/w3c/calculator/)
   * [Gentelella App Versions](https://ifpb.github.io/javascript-exercises/w3c/gentelella-app-versions/)
   * [Gentelella Top Tiles](https://ifpb.github.io/javascript-exercises/w3c/gentelella-top-tiles)
+
+**Projeto:**
+
+Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projetodw20181).
 
 ## \# 09 - Consumindo JSON e Pacotes JS (18/05/2018)
 ---
