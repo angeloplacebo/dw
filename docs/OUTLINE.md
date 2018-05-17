@@ -8,7 +8,7 @@
 [\# 06 - Avalição de HTML e CSS (27/04/2018)](#-06---avalição-de-html-e-css-27042018)<br>
 [\# 07 - Introdução ao Javascript (04/05/2018)](#-07---introdução-ao-javascript-04052018)<br>
 [\# 08 - Geração Dinâmica com JS (11/05/2018)](#-08---geração-dinâmica-com-js-11052018)<br>
-[\# 09 - Consumindo JSON e Pacotes JS (18/05/2018)](#-09---consumindo-json-e-pacotes-js-18052018)<br>
+[\# 09 - Geração Dinâmica com JS (18/05/2018)](#-09---geração-dinâmica-com-js-18052018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -140,10 +140,11 @@
   - [Running Javascript in Browser](https://ifpb.github.io/javascript-guide/w3c/running-javascript-browser/)
   - [Window](https://ifpb.github.io/javascript-guide/w3c/window/window.html)
   - [DOM](https://ifpb.github.io/javascript-guide/w3c/dom/) 
+    - [Node (DOM tree)](https://ifpb.github.io/javascript-guide/w3c/dom/node.html)
     - [Document](https://ifpb.github.io/javascript-guide/w3c/dom/document.html): `querySelector()`
     - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `innerHTML`
     - [HTML Input Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-input-element.html): `checked`, `value`
-    - [Node (DOM tree)](https://ifpb.github.io/javascript-guide/w3c/dom/node.html)
+  - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/): `onclick`
 
 **Reflexão:**
 * Para que serve os formulários e como estruturamos um?
@@ -156,10 +157,12 @@
 * Para chamar uma função é necessário declará-lo antes de sua chamada?
 * O que são parâmetros default dentro das funções no Javascript?
 * Como integramos Javascript com HTML no Navegador?
-* É possível acessar recusos do Navegador com o Javascript? Por exemplo, é possivel acessar os botões de navegaçõa de histórico?
-* Como atibuímos um evento em um botão no Javascript?
-* Por que a árvore DOM é tão importante para o Javascript?
-* Um Elemento no HTML pode ser analisado como sendo mais de um objeto no DOM?
+* É possível acessar recusos do Navegador com o Javascript? Por exemplo, é possivel acessar os botões de navegação de histórico? Ou a URL da barra de endereço?
+* Qual a importância da árvore DOM para o Javascript?
+* Um Elemento no HTML pode ser analisado como sendo mais de um objeto no DOM? Mostre algum exemplo.
+* Como acessamos um elemento do HTML via `document` no Javascript?
+* Como acessamos ou alteramos o conteúdo dos elementos `<div>`, `<input type="text">` e `<input type="radio">`?(selecionado)?
+* Como atribuímos um evento em um botão no Javascript?
 
 **Exercício:**
 * Crie um script para:
@@ -185,33 +188,11 @@
     - String ([sintaxe](https://ifpb.github.io/javascript-guide/ecma/string/syntax.html), [objeto](https://ifpb.github.io/javascript-guide/ecma/string/object.html))
     - Array ([sintaxe](https://ifpb.github.io/javascript-guide/ecma/array/syntax.html), [objeto](https://ifpb.github.io/javascript-guide/ecma/array/object.html))
     - JSON ([sintaxe](https://ifpb.github.io/javascript-guide/ecma/json/syntax.html), [manipulação](https://ifpb.github.io/javascript-guide/ecma/object/syntax.html#changing-object), [iterando](https://ifpb.github.io/javascript-guide/ecma/object/syntax.html#object-interaction))
-  - [Funções Anônimas](https://ifpb.github.io/javascript-guide/ecma/function/#function-expression--anonymous-function)
-- [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
-  - [HTML Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-element.html): `style`, `focus()`
-  - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `innerHTML`, `insertAdjacentHTML()`
-  - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/)
-    - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html): `addEventListener()`
-    - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html): `onclick`
-
+  
 **Reflexão:**
 * Quais são as estruturas de repetição do Javascript?
 * No Javascript, como manipulamos (criar, alterar, iterar, ações) String, Array e JSON?
 * Como estruturamos dados compostos em Javascript?
-* O que são funções anônimas?
-* Como inserimos dados no HTML? Por exemplos, em um:
-  * `<input type="text">`
-  * `<div></div>`
-* Como inserimos um novo parágrafo no final da `<div>` a seguir sem recriar seus elementos internos?
-
-```html
-<div>
-  <p>Lorem ipsum dolor</p>
-  <p>Dolor ipsum lorem</p>
-</div>
-```
-
-* Como alteramos o estilo de um elemento no Javascript?
-* Como adicionamos eventos a um elemento selecionado?
 
 **Exercício:**
 * Crie um script para:
@@ -229,6 +210,37 @@
 | PC 1	| 192.168.0.1 |	255.255.255.0 |
 | Server	| 10.0.0.1 |	255.255.255.0 |
 
+## \# 09 - Geração Dinâmica com JS (18/05/2018)
+---
+
+**Conteúdo:**
+- [Javascript EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
+  - [Funções Anônimas](https://ifpb.github.io/javascript-guide/ecma/function/#function-expression--anonymous-function)
+- [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
+  - [HTML Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-element.html): `style`, `focus()`
+  - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `innerHTML`, `insertAdjacentHTML()`, `remove()`
+  - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/)
+    - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html): `addEventListener()`
+    - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html): `onclick`
+  - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html): `parentNode`
+
+**Reflexão:**
+* O que são funções anônimas?
+* Como acessamos ou alteramos o conteúdo dos elementos `<div>`, `<input type="text">` e `<input type="radio">` (selecionado)?
+* Como inserimos um novo parágrafo no final da `<div>` a seguir sem recriar seus elementos internos?
+
+```html
+<div>
+  <p>Lorem ipsum dolor</p>
+  <p>Dolor ipsum lorem</p>
+</div>
+```
+
+* Como alteramos o estilo de um elemento no Javascript?
+* Como adicionamos eventos a um elemento selecionado?
+
+
+**Exercício:**
 * Crie uma interface Web para:
   * [IMC com validação](https://ifpb.github.io/javascript-exercises/w3c/bmi-validator/)
   * [Calculadora](https://ifpb.github.io/javascript-exercises/w3c/calculator/)
@@ -239,34 +251,25 @@
 
 Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projetodw20181).
 
-## \# 09 - Consumindo JSON e Pacotes JS (18/05/2018)
+<!-- 
+## \# 10 - Consumindo JSON e Pacotes JS (//2018)
 ---
 
 **Conteúdo:**
 - [Web API](https://ifpb.github.io/javascript-guide/ecma/json/syntax.html#web-api)
 - [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
-  - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html): `parentNode`
-  - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `innerHTML`, `insertAdjacentHTML()`, `remove()`
-  - [Fetch API]()
+  - [Fetch API](https://ifpb.github.io/javascript-guide/w3c/fetch-api/) ([AJAX](https://ifpb.github.io/javascript-guide/w3c/xmlhttprequest/#asynchronous-javaScript-and-xml-ajax))
+
 
 **Reflexão:**
+* Por que as Web API geralmente respondem com JSON?
 
 **Exercício:**
-  * [Iptable](https://ifpb.github.io/javascript-exercises/w3c/iptable/)
-  * [IP Info 1](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-table-api/)
-  * [IP Info 2](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-api/)
+* [Iptable](https://ifpb.github.io/javascript-exercises/w3c/iptable/)
+* [IP Info 1](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-table-api/)
+* [IP Info 2](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-api/)
 
-<!-- 
-## \# 10 - Simulado de Javascript (//2018)
----
-
-**Conteúdo:**
-
-**Reflexão:**
-
-**Exercício:**
-
-## \# 11 - Avaliação de JS (//2018)
+## \# 11 - Simulado de Javascript Avaliação de JS (//2018)
 ---
 
 > Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js/)
