@@ -251,10 +251,6 @@
   * [IMC com Validação](https://ifpb.github.io/javascript-exercises/w3c/bmi-validator/)
   * [Calculadora](https://ifpb.github.io/javascript-exercises/w3c/calculator/)
 
-**Projeto:**
-
-Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projetodw20181).
-
 ## \# 10 - Consumindo JSON e Geração Dinâmica com JS (08/06/2018)
 ---
 
@@ -276,6 +272,10 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 * [IP Info 1](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-table-api/)
 * [IP Info 2](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-api/)
 * [Iptable](https://ifpb.github.io/javascript-exercises/w3c/iptable/)
+
+**Projeto:**
+
+Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projetodw20181).
 
 ## \# 11 - Pacotes JS e Simulado de Javascript Avaliação de JS (15/06/2018)
 ---
