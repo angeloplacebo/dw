@@ -264,6 +264,7 @@
 **Reflexão:**
 * Por que as Web API geralmente respondem com JSON?
 * O que o Fetch API permite fazer?
+* Como exibimos apenas a cidade do IP `8.8.8.8` usando a API do [ipinfo.io](https://ipinfo.io/developers)? Use essa rota `https://ipinfo.io/8.8.8.8/json` e o [Fetch API](https://ifpb.github.io/javascript-guide/w3c/fetch-api/).
 * Como removemos um elementos no HTML via Javascript?
 
 **Exercício:**
