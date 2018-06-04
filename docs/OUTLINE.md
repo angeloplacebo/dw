@@ -7,8 +7,10 @@
 [\# 05 - Criando Dashboard Admin (20/04/2018)](#-05---criando-dashboard-admin-20042018)<br>
 [\# 06 - Avalição de HTML e CSS (27/04/2018)](#-06---avalição-de-html-e-css-27042018)<br>
 [\# 07 - Introdução ao Javascript (04/05/2018)](#-07---introdução-ao-javascript-04052018)<br>
-[\# 08 - Geração Dinâmica com JS (11/05/2018)](#-08---geração-dinâmica-com-js-11052018)<br>
+[\# 08 - Introdução ao Javascript (11/05/2018)](#-08---introdução-ao-javascript-11052018)<br>
 [\# 09 - Geração Dinâmica com JS (18/05/2018)](#-09---geração-dinâmica-com-js-18052018)<br>
+[\# 10 - Consumindo JSON e Geração Dinâmica com JS (08/06/2018)](#-10---consumindo-json-e-geração-dinâmica-com-js-08062018)<br>
+[\# 11 - Pacotes JS e Simulado de Javascript Avaliação de JS (15/06/2018)](#-11---pacotes-js-e-simulado-de-javascript-avaliação-de-js-15062018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -178,7 +180,7 @@
   * Este [formulário](https://ifpb.github.io/html-guide/html/form/#simple-form) usando a estilização do Bootstrap.
   * [IMC](https://ifpb.github.io/javascript-exercises/w3c/bmi-simple/)
 
-## \# 08 - Geração Dinâmica com JS (11/05/2018)
+## \# 08 - Introdução ao Javascript (11/05/2018)
 ---
 
 **Conteúdo:**
@@ -217,15 +219,21 @@
 - [Javascript EcmaScript](https://ifpb.github.io/javascript-guide/ecma/)
   - [Funções Anônimas](https://ifpb.github.io/javascript-guide/ecma/function/#function-expression--anonymous-function)
 - [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
+  - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `setAttribute()`, `innerHTML`, `insertAdjacentHTML()`
   - [HTML Element](https://ifpb.github.io/javascript-guide/w3c/dom/html-element.html): `style`, `focus()`
-  - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `innerHTML`, `insertAdjacentHTML()`, `remove()`
   - [DOM Event](https://ifpb.github.io/javascript-guide/w3c/dom-event/)
     - [EventTarget](https://ifpb.github.io/javascript-guide/w3c/dom-event/event-target.html): `addEventListener()`
     - [GlobalEventHandlers](https://ifpb.github.io/javascript-guide/w3c/dom-event/global-event-handlers.html): `onclick`
-  - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html): `parentNode`
+  
 
 **Reflexão:**
 * O que são funções anônimas?
+* Como adicionamos eventos a um elemento selecionado?
+* No exercício do IMC gráfico, explique como adicionamos eventos de teclado para ao pressionar:
+  * A tecla 'Enter' exiba o resultado do IMC;
+  * A tecla 'Escape' limpe os valores digitados nos `<input>` e foque no primeiro input.
+* Como alteramos o estilo de um elemento no Javascript?
+* No exercício do IMC gráfico, explique como alteramos a cor do resultdo do IMC conforme o resultado, por exemplo, vermelho para obeso e assim por diante.
 * Como acessamos ou alteramos o conteúdo dos elementos `<div>`, `<input type="text">` e `<input type="radio">` (selecionado)?
 * Como inserimos um novo parágrafo no final da `<div>` a seguir sem recriar seus elementos internos?
 
@@ -236,45 +244,56 @@
 </div>
 ```
 
-* Como alteramos o estilo de um elemento no Javascript?
-* Como adicionamos eventos a um elemento selecionado?
-
-
 **Exercício:**
 * Crie uma interface Web para:
-  * [IMC com validação](https://ifpb.github.io/javascript-exercises/w3c/bmi-validator/)
+  * [IMC com Evento](https://ifpb.github.io/javascript-exercises/w3c/bmi-event/)
+  * [IMC com Estilo](https://ifpb.github.io/javascript-exercises/w3c/bmi-css/)
+  * [IMC com Validação](https://ifpb.github.io/javascript-exercises/w3c/bmi-validator/)
   * [Calculadora](https://ifpb.github.io/javascript-exercises/w3c/calculator/)
-  * [Gentelella App Versions](https://ifpb.github.io/javascript-exercises/w3c/gentelella-app-versions/)
-  * [Gentelella Top Tiles](https://ifpb.github.io/javascript-exercises/w3c/gentelella-top-tiles)
 
 **Projeto:**
 
 Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projetodw20181).
 
-<!-- 
-## \# 10 - Consumindo JSON e Pacotes JS (//2018)
+## \# 10 - Consumindo JSON e Geração Dinâmica com JS (08/06/2018)
 ---
 
 **Conteúdo:**
 - [Web API](https://ifpb.github.io/javascript-guide/ecma/json/syntax.html#web-api)
 - [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
   - [Fetch API](https://ifpb.github.io/javascript-guide/w3c/fetch-api/) ([AJAX](https://ifpb.github.io/javascript-guide/w3c/xmlhttprequest/#asynchronous-javaScript-and-xml-ajax))
-
+  - [Element](https://ifpb.github.io/javascript-guide/w3c/dom/element.html): `remove()`
+  - [Node](https://ifpb.github.io/javascript-guide/w3c/dom/node.html): `parentNode`
 
 **Reflexão:**
 * Por que as Web API geralmente respondem com JSON?
+* O que o Fetch API permite fazer?
+* Como removemos um elementos no HTML via Javascript?
 
 **Exercício:**
-* [Iptable](https://ifpb.github.io/javascript-exercises/w3c/iptable/)
+* [Gentelella App Versions](https://ifpb.github.io/javascript-exercises/w3c/gentelella-app-versions/)
+* [Gentelella Top Tiles](https://ifpb.github.io/javascript-exercises/w3c/gentelella-top-tiles)
 * [IP Info 1](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-table-api/)
 * [IP Info 2](https://ifpb.github.io/javascript-exercises/w3c/ipinfo-api/)
+* [Iptable](https://ifpb.github.io/javascript-exercises/w3c/iptable/)
 
-## \# 11 - Simulado de Javascript Avaliação de JS (//2018)
+## \# 11 - Pacotes JS e Simulado de Javascript Avaliação de JS (15/06/2018)
 ---
 
-> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js/)
+**Conteúdo:**
+* [Javascript Ecma](https://ifpb.github.io/javascript-exercises/ecma/)
+* [Javascript W3C](https://ifpb.github.io/javascript-exercises/w3c/))
 
-> Além da avaliação será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
+**Reflexão:**
+
+**Exercício:**
+* Javascript ([Ecma](https://ifpb.github.io/javascript-exercises/ecma/) e [W3c](https://ifpb.github.io/javascript-exercises/w3c/))
+* [eZ Server Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/ez-server-monitor/)
+* [Host Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/host-monitor/)
+* [Pingdom Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/pingdom-monitor/)
+
+<!-- 
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js/)
 
 ## \# 12 - Fundamentos do PHP (//2018)
 ---
