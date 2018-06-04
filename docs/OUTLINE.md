@@ -265,7 +265,7 @@
 * Por que as Web API geralmente respondem com JSON?
 * O que o Fetch API permite fazer?
 * Como exibimos apenas a cidade do IP `8.8.8.8` usando a API do [ipinfo.io](https://ipinfo.io/developers)? Use essa rota `https://ipinfo.io/8.8.8.8/json` e o [Fetch API](https://ifpb.github.io/javascript-guide/w3c/fetch-api/).
-* Como removemos um elementos no HTML via Javascript?
+* Como removemos um elemento no HTML via Javascript?
 
 **Exercício:**
 * [Gentelella App Versions](https://ifpb.github.io/javascript-exercises/w3c/gentelella-app-versions/)
@@ -282,16 +282,21 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 ---
 
 **Conteúdo:**
-* [Javascript Ecma](https://ifpb.github.io/javascript-exercises/ecma/)
-* [Javascript W3C](https://ifpb.github.io/javascript-exercises/w3c/))
+* [Javascript Ecma](https://ifpb.github.io/javascript-guide/ecma/)
+* [Javascript W3C](https://ifpb.github.io/javascript-guide/w3c/)
+* [Javascript Packages](https://ifpb.github.io/javascript-guide/packages/)
 
 **Reflexão:**
+* Como montamos gráficos usando Javascript?
 
 **Exercício:**
-* Javascript ([Ecma](https://ifpb.github.io/javascript-exercises/ecma/) e [W3c](https://ifpb.github.io/javascript-exercises/w3c/))
-* [eZ Server Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/ez-server-monitor/)
-* [Host Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/host-monitor/)
-* [Pingdom Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/pingdom-monitor/)
+* [Javascript Ecma](https://ifpb.github.io/javascript-exercises/ecma/)
+* [Javascript W3C](https://ifpb.github.io/javascript-exercises/w3c/)
+* [Javascript Packages](https://ifpb.github.io/javascript-exercises/packages/)
+* [Javascript Challenges](https://ifpb.github.io/javascript-exercises/challenges/)
+  * [eZ Server Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/ez-server-monitor/)
+  * [Host Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/host-monitor/)
+  * [Pingdom Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/pingdom-monitor/)
 
 <!-- 
 > Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js/)
