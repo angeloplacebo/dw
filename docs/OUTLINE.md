@@ -11,6 +11,7 @@
 [\# 09 - Geração Dinâmica com JS (18/05/2018)](#-09---geração-dinâmica-com-js-18052018)<br>
 [\# 10 - Consumindo JSON e Geração Dinâmica com JS (08/06/2018)](#-10---consumindo-json-e-geração-dinâmica-com-js-08062018)<br>
 [\# 11 - Pacotes JS e Simulado de Javascript Avaliação de JS (15/06/2018)](#-11---pacotes-js-e-simulado-de-javascript-avaliação-de-js-15062018)<br>
+[\# 12 - Avalição de Javascript e Servidor LAMP (29/06/2018)](#-12---avalição-de-javascript-e-servidor-lamp-29062018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -293,15 +294,27 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 * [Javascript Ecma](https://ifpb.github.io/javascript-exercises/ecma/)
 * [Javascript W3C](https://ifpb.github.io/javascript-exercises/w3c/)
 * [Javascript Packages](https://ifpb.github.io/javascript-exercises/packages/)
+  * [Ample Admin Charts](https://ifpb.github.io/javascript-exercises/packages/charts/ample-admin-charts/)
 * [Javascript Challenges](https://ifpb.github.io/javascript-exercises/challenges/)
   * [eZ Server Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/ez-server-monitor/)
   * [Host Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/host-monitor/)
   * [Pingdom Monitor](https://ifpb.github.io/javascript-exercises/challenges/w3c/pingdom-monitor/)
 
-<!-- 
+## \# 12 - Avalição de Javascript e Servidor LAMP (29/06/2018)
+---
+
+**Conteúdo:**
+- [PHP Guide](https://ifpb.github.io/php-guide/)
+  - [Lamp Server](https://ifpb.github.io/php-guide/lamp/)
+
+**Reflexão:**
+* Como configurar um ambiente backend com PHP e MySQL?
+
+**Avaliação:**
+
 > Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js/)
 
-## \# 12 - Fundamentos do PHP (//2018)
+## \# 13 - Fundamentos de PHP (06/07/2018)
 ---
 
 **Conteúdo:**
@@ -310,7 +323,7 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Exercício:**
 
-## \# 13 - APIs em PHP (//2018)
+## \# 14 - PHP Web (13/07/2018)
 ---
 
 **Conteúdo:**
@@ -319,7 +332,7 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Exercício:**
 
-## \# 14 - Acompanhamento de Projetos (//2018)
+## \# 15 - APIs em PHP (20/07/2018)
 ---
 
 **Conteúdo:**
@@ -328,7 +341,7 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Exercício:**
 
-## \# 15 - API dos Projetos (//2018)
+## \# 16 - MySQL (27/07/2018)
 ---
 
 **Conteúdo:**
@@ -337,7 +350,12 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Exercício:**
 
-## \# 16 - MySQL & PHP PDO (//2018)
+## \# 17 - Acompanhamento do Projeto (28/07/2018)
+---
+
+> [Projeto Final](../exams/projeto.md)
+
+## \# 18 - PHP PDO (03/08/2018)
 ---
 
 **Conteúdo:**
@@ -346,34 +364,12 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Exercício:**
 
-## \# 17 -  (//2018)
+## \# 19 - Acompanhamento do Projeto (04/08/2018)
 ---
 
-**Conteúdo:**
+> [Projeto Final](../exams/projeto.md)
 
-**Reflexão:**
-
-**Exercício:**
-
-## \# 18 -  (//2018)
+## \# 20 - Prova e Projeto Final (10/08/2018)
 ---
 
-**Conteúdo:**
-
-**Reflexão:**
-
-**Exercício:**
-
-## \# 19 -  (//2018)
----
-
-**Conteúdo:**
-
-**Reflexão:**
-
-**Exercício:**
-
-## \# 20 - Prova e Projeto Final (//2018)
----
-
- -->
+> Entrega do [Projeto Final](../exams/projeto.md) e todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-php.md).
