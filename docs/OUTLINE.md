@@ -312,7 +312,7 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Avaliação:**
 
-> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js/)
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js.md)
 
 ## \# 13 - Fundamentos de PHP (06/07/2018)
 ---
