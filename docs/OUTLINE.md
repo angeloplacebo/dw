@@ -12,6 +12,7 @@
 [\# 10 - Consumindo JSON e Geração Dinâmica com JS (08/06/2018)](#-10---consumindo-json-e-geração-dinâmica-com-js-08062018)<br>
 [\# 11 - Pacotes JS e Simulado de Javascript Avaliação de JS (15/06/2018)](#-11---pacotes-js-e-simulado-de-javascript-avaliação-de-js-15062018)<br>
 [\# 12 - Avalição de Javascript e Servidor LAMP (29/06/2018)](#-12---avalição-de-javascript-e-servidor-lamp-29062018)<br>
+[\# 13 - Fundamentos de PHP (06/07/2018)](#-13---fundamentos-de-php-06072018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -318,11 +319,39 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 ---
 
 **Conteúdo:**
+- [PHP Guide](https://ifpb.github.io/php-guide/)
+  - [PHP Core](https://ifpb.github.io/php-guide/core/)
+    - [Variable](https://ifpb.github.io/php-guide/core/variable/)
+    - [Expression and Operator](https://ifpb.github.io/php-guide/core/expression-and-operator/)
+    - [Statements](https://ifpb.github.io/php-guide/core/statements/)
+    - [Function](https://ifpb.github.io/php-guide/core/function/)
+  - [PHP Stdlib](https://ifpb.github.io/php-guide/stdlib/)
+    - Process Control Extensions
+      - [Program execution](https://ifpb.github.io/php-guide/stdlib/program-execution/)
 
 **Reflexão:**
+* Como executamos código PHP?
+* Como declaramos variáveis no PHP?
+* Quais são os tipos de dados do PHP?
+* Quais são os operadores do PHP?
+* Quais são as estruturas de controle e repetição do PHP?
+* Como criamos uma função em PHP?
+* O que acontece quando passamos uma quantidade de argumentos diferente do total de parâmetros?
+* Como executamos comandos via PHP?
 
 **Exercício:**
-
+* Crie um script para:
+  * Através de `$x = 10` definir `$x+2`
+  * Através de `$x = 10` definir `$x²`
+  * Através de `$x = 10` definir `3$x²+12$x-4`
+  * Através de `$x = 10` definir `$x+3 > √$x`
+  * Calcular o [IMC](https://ifpb.github.io/javascript-exercises/ecma/basic/bmi/)
+  * Gerar algumas [séries numéricas](https://ifpb.github.io/php-exercises/core/basic/numbers/)
+  * Calcular a [soma de números](https://ifpb.github.io/php-exercises/core/function/sum/)
+  * Calcular a [área do círculo](https://ifpb.github.io/php-exercises/core/function/area-of-circle/)
+  * Calcular as [operações aritméticas básicas](https://ifpb.github.io/php-exercises/core/function/calc/)
+* Como executar o comando `ls` por meio do PHP?
+  
 ## \# 14 - PHP Web (13/07/2018)
 ---
 
