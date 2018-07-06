@@ -6,7 +6,7 @@
 [\# 04 - Estilizando texto e box (13/04/2018)](#-04---estilizando-texto-e-box-13042018)<br>
 [\# 05 - Criando Dashboard Admin (20/04/2018)](#-05---criando-dashboard-admin-20042018)<br>
 [\# 06 - Avalição de HTML e CSS (27/04/2018)](#-06---avalição-de-html-e-css-27042018)<br>
-[\# 07 - Introdução ao Javascript (04/05/2018)](#-07---introdução-ao-javascript-04052018)<br>
+[\# 07 - Introdução ao php (04/05/2018)](#-07---introdução-ao-javascript-04052018)<br>
 [\# 08 - Introdução ao Javascript (11/05/2018)](#-08---introdução-ao-javascript-11052018)<br>
 [\# 09 - Geração Dinâmica com JS (18/05/2018)](#-09---geração-dinâmica-com-js-18052018)<br>
 [\# 10 - Consumindo JSON e Geração Dinâmica com JS (08/06/2018)](#-10---consumindo-json-e-geração-dinâmica-com-js-08062018)<br>
@@ -345,14 +345,14 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
   * Através de `$x = 10` definir `$x²`
   * Através de `$x = 10` definir `3$x²+12$x-4`
   * Através de `$x = 10` definir `$x+3 > √$x`
-  * Calcular o [IMC](https://ifpb.github.io/javascript-exercises/ecma/basic/bmi/)
+  * Calcular o [IMC](https://ifpb.github.io/php-exercises/core/basic/bmi/)
   * Gerar algumas [séries numéricas](https://ifpb.github.io/php-exercises/core/basic/numbers/)
   * Calcular a [soma de números](https://ifpb.github.io/php-exercises/core/function/sum/)
   * Calcular a [área do círculo](https://ifpb.github.io/php-exercises/core/function/area-of-circle/)
   * Calcular as [operações aritméticas básicas](https://ifpb.github.io/php-exercises/core/function/calc/)
 * Como executar o comando `ls` por meio do PHP?
   
-## \# 14 - PHP Web (13/07/2018)
+## \# 14 - APIs em PHP (13/07/2018)
 ---
 
 **Conteúdo:**
@@ -361,7 +361,7 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Exercício:**
 
-## \# 15 - APIs em PHP (20/07/2018)
+## \# 15 - PHP Web e Simulado de PHP (20/07/2018)
 ---
 
 **Conteúdo:**
@@ -370,7 +370,7 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Exercício:**
 
-## \# 16 - MySQL (27/07/2018)
+## \# 16 - Avaliação de PHP e Acompanhamento do Projeto (27/07/2018)
 ---
 
 **Conteúdo:**
@@ -379,7 +379,7 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 
 **Exercício:**
 
-## \# 17 - Acompanhamento do Projeto (28/07/2018)
+## \# 17 - MySQL (28/07/2018)
 ---
 
 > [Projeto Final](../exams/projeto.md)
