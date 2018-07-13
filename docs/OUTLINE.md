@@ -13,7 +13,7 @@
 [\# 11 - Pacotes JS e Simulado de Javascript Avaliação de JS (15/06/2018)](#-11---pacotes-js-e-simulado-de-javascript-avaliação-de-js-15062018)<br>
 [\# 12 - Avalição de Javascript e Servidor LAMP (29/06/2018)](#-12---avalição-de-javascript-e-servidor-lamp-29062018)<br>
 [\# 13 - Fundamentos de PHP (06/07/2018)](#-13---fundamentos-de-php-06072018)<br>
-[\# 14 - APIs em PHP (13/07/2018)](#-14---APIs-em-PHP-13072018)<br>
+[\# 14 - APIs em PHP (13/07/2018)](#-14---apis-em-php-13072018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -382,7 +382,7 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 * Como formatar dados no PHP para retornar JSON?
 
 **Exercício:**
-* Crie uma API para listar arquivos de path no formato JSON.
+* Crie uma API para listar arquivos de um `path` no formato JSON.
 * Crie uma API dos serviços de um SO no qual é possível realizar as seguintes as ações `start` e `stop`. Dica, use o comando `service`.
 * Crie o esquema da API do seu projeto baseado nos templates existentes em [Web API](https://ifpb.github.io/php-guide/web/web-api/).
 
