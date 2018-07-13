@@ -13,6 +13,7 @@
 [\# 11 - Pacotes JS e Simulado de Javascript Avaliação de JS (15/06/2018)](#-11---pacotes-js-e-simulado-de-javascript-avaliação-de-js-15062018)<br>
 [\# 12 - Avalição de Javascript e Servidor LAMP (29/06/2018)](#-12---avalição-de-javascript-e-servidor-lamp-29062018)<br>
 [\# 13 - Fundamentos de PHP (06/07/2018)](#-13---fundamentos-de-php-06072018)<br>
+[\# 14 - APIs em PHP (13/07/2018)](#-14---APIs-em-PHP-13072018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -338,13 +339,14 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 * Como criamos uma função em PHP?
 * O que acontece quando passamos uma quantidade de argumentos diferente do total de parâmetros?
 * Como executamos comandos via PHP?
+* Qual a finalidade do script [`ping.php`](https://ifpb.github.io/php-guide/stdlib/program-execution/#ping)?
 
 **Exercício:**
 * Crie um script para:
-  * Através de `$x = 10` definir `$x+2`
-  * Através de `$x = 10` definir `$x²`
-  * Através de `$x = 10` definir `3$x²+12$x-4`
-  * Através de `$x = 10` definir `$x+3 > √$x`
+  * Através de `x = 10` definir `x+2`
+  * Através de `x = 10` definir `x²`
+  * Através de `x = 10` definir `3x²+12x-4`
+  * Através de `x = 10` definir `x+3 > √x`
   * Calcular o [IMC](https://ifpb.github.io/php-exercises/core/basic/bmi/)
   * Gerar algumas [séries numéricas](https://ifpb.github.io/php-exercises/core/basic/numbers/)
   * Calcular a [soma de números](https://ifpb.github.io/php-exercises/core/function/sum/)
@@ -356,10 +358,33 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 ---
 
 **Conteúdo:**
+- [PHP Guide](https://ifpb.github.io/php-guide/)
+  - [PHP Stdlib](https://ifpb.github.io/php-guide/stdlib/)
+    - File System Related Extensions 
+      - [Filesystem](https://ifpb.github.io/php-guide/stdlib/filesystem/)
+    - Other Basic Extensions
+      - [JSON](https://ifpb.github.io/php-guide/stdlib/json/)
+    - Other Services
+      - [SSH2 — Secure Shell2](https://ifpb.github.io/php-guide/stdlib/ssh2/)
+    - Process Control Extensions 
+      - [Program execution](https://ifpb.github.io/php-guide/stdlib/program-execution/)
+    - Text Processing
+      - [PCRE — Regular Expressions (Perl-Compatible)](https://ifpb.github.io/php-guide/stdlib/pcre/)
+      - [Strings](https://ifpb.github.io/php-guide/stdlib/strings/)
+  - [PHP Web](https://ifpb.github.io/php-guide/web/)
+    - [HTTP Methods](https://ifpb.github.io/php-guide/web/http/)
+    - [Web API](https://ifpb.github.io/php-guide/web/web-api/)
 
 **Reflexão:**
+* Como obter dados no PHP?
+* Como executamos chamadas de sistema em PHP com e sem privilégio?
+* Como editamos um arquivo de configuração por meio do PHP?
+* Como formatar dados no PHP para retornar JSON?
 
 **Exercício:**
+* Crie uma API para listar arquivos de path no formato JSON.
+* Crie uma API dos serviços de um SO no qual é possível realizar as seguintes as ações `start` e `stop`. Dica, use o comando `service`.
+* Crie o esquema da API do seu projeto baseado nos templates existentes em [Web API](https://ifpb.github.io/php-guide/web/web-api/).
 
 ## \# 15 - PHP Web e Simulado de PHP (20/07/2018)
 ---
