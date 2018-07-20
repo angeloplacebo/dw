@@ -14,6 +14,12 @@
 [\# 12 - Avalição de Javascript e Servidor LAMP (29/06/2018)](#-12---avalição-de-javascript-e-servidor-lamp-29062018)<br>
 [\# 13 - Fundamentos de PHP (06/07/2018)](#-13---fundamentos-de-php-06072018)<br>
 [\# 14 - APIs em PHP (13/07/2018)](#-14---apis-em-php-13072018)<br>
+[\# 15 - PHP Web (20/07/2018)](#-15---php-web-20072018)<br>
+[\# 16 - MySQL (27/07/2018)](#-16---mysql-27072018)<br>
+[\# 17 - PHP PDO (28/07/2018)](#-17---php-pdo-28072018)<br>
+[\# 18 - Acompanhamento do Projeto (03/08/2018)](#-18---acompanhamento-do-projeto-03082018)<br>
+[\# 19 - Acompanhamento do Projeto (04/08/2018)](#-19---acompanhamento-do-projeto-04082018)<br>
+[\# 20 - Avaliação de PHP e Projeto Final (10/08/2018)](#-20---avaliação-de-php-e-projeto-final-10082018)<br>
 
 ## \# 01 - Apresentação da Disciplina (16/03/2018)
 ---
@@ -376,6 +382,8 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
     - [Web API](https://ifpb.github.io/php-guide/web/web-api/)
 
 **Reflexão:**
+* Como contruir uma página dinâmica no Front-end e no Back-end?
+* Quais são as diferença entre o `$_POST` e `$_GET`?
 * Como obter dados no PHP?
 * Como executamos chamadas de sistema em PHP com e sem privilégio?
 * Como editamos um arquivo de configuração por meio do PHP?
@@ -386,44 +394,67 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 * Crie uma API dos serviços de um SO no qual é possível realizar as seguintes as ações `start` e `stop`. Dica, use o comando `service`.
 * Crie o esquema da API do seu projeto baseado nos templates existentes em [Web API](https://ifpb.github.io/php-guide/web/web-api/).
 
-## \# 15 - PHP Web e Simulado de PHP (20/07/2018)
+## \# 15 - PHP Web (20/07/2018)
 ---
 
 **Conteúdo:**
+- [PHP Guide](https://ifpb.github.io/php-guide/)
+  - [PHP Web](https://ifpb.github.io/php-guide/web/)
+    - [HTTP Methods](https://ifpb.github.io/php-guide/web/http/)
+    - [Dynamic pages](https://ifpb.github.io/php-guide/web/dynamic-pages/)
+    - [Session](https://ifpb.github.io/php-guide/web/session/)
+    - [Web App](https://ifpb.github.io/php-guide/web/web-app/)
+      - [PS App](https://ifpb.github.io/php-guide/web/web-app/ps/)
+      - [Host Monitor Simple](https://ifpb.github.io/php-guide/web/web-app/monitor-host-simple/)
+
+**Reflexão:**
+- Como o PHP consegue tratar requisições HTTP GET e POST?
+- O que munda no processamento de PHP quando a renderização de conteúdo é feito no lado Cliente e Servidor?
+- Para que serve as sessões no PHP?
+- Como criar um autenticação via sessão o PHP?
+- Como consumir APIs para gerar interfaces Web dinâmicas?
+
+**Exercício:**
+- [EZ Server Monitor](https://ifpb.github.io/php-exercises/challenges/ez-server-monitor/)
+- [Host Monitor](https://ifpb.github.io/php-exercises/challenges/host-monitor/)
+
+## \# 16 - MySQL (27/07/2018)
+---
+
+**Conteúdo:**
+- [MySQL Guide](https://ifpb.github.io/mysql-guide/)
+  - [Admin](https://ifpb.github.io/mysql-guide/admin/)
+  - [SQL](https://ifpb.github.io/mysql-guide/sql/)
 
 **Reflexão:**
 
 **Exercício:**
 
-## \# 16 - Avaliação de PHP e Acompanhamento do Projeto (27/07/2018)
+## \# 17 - PHP PDO (28/07/2018)
 ---
 
 **Conteúdo:**
+- [PHP Guide](https://ifpb.github.io/php-guide/)
+  - [PHP Stdlib](https://ifpb.github.io/php-guide/stdlib/)
+    - [PDO - PHP Data Objects](https://ifpb.github.io/php-guide/stdlib/pdo/)
 
 **Reflexão:**
 
 **Exercício:**
 
-## \# 17 - MySQL (28/07/2018)
+## \# 18 - Acompanhamento do Projeto (03/08/2018)
 ---
 
 > [Projeto Final](../exams/projeto.md)
-
-## \# 18 - PHP PDO (03/08/2018)
----
-
-**Conteúdo:**
-
-**Reflexão:**
-
-**Exercício:**
 
 ## \# 19 - Acompanhamento do Projeto (04/08/2018)
 ---
 
 > [Projeto Final](../exams/projeto.md)
 
-## \# 20 - Prova e Projeto Final (10/08/2018)
+## \# 20 - Avaliação de PHP e Projeto Final (10/08/2018)
 ---
 
-> Entrega do [Projeto Final](../exams/projeto.md) e todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-php.md).
+> Entrega do [Projeto Final](../exams/projeto.md) e da avaliação de [PHP](../exams/prova-php.md).
+
+### E agora?
