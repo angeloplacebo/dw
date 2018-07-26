@@ -427,8 +427,16 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
   - [SQL](https://ifpb.github.io/mysql-guide/sql/)
 
 **Reflexão:**
+- O que é e para que serve um banco de dados?
+- Qual é a arquitetura básica de um serviço de banco em MySQL?
+- Qual é a finalidade da linguagem SQL?
+- Como criamos um banco, tabela e dados no MySQL?
+- Como fazer CRUD em uma Tabela?
+- O que é integridade de entidade e referencial?
+- Quais são as [restrinções](https://www.w3schools.com/sql/sql_constraints.asp) em um banco de dados relacional?
 
 **Exercício:**
+- Crie um banco de dados para seu projeto.
 
 ## \# 17 - PHP PDO (28/07/2018)
 ---
@@ -437,10 +445,25 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 - [PHP Guide](https://ifpb.github.io/php-guide/)
   - [PHP Stdlib](https://ifpb.github.io/php-guide/stdlib/)
     - [PDO - PHP Data Objects](https://ifpb.github.io/php-guide/stdlib/pdo/)
+      - [CRUD](https://ifpb.github.io/php-guide/stdlib/pdo/#pdo-crud)
+      - [Model](https://ifpb.github.io/php-guide/stdlib/pdo/#pdo-model)
+        - [Host Simple Model](https://ifpb.github.io/php-guide/stdlib/pdo/codes/host-simple/)
+        - [Host Address Model (1:1)](https://ifpb.github.io/php-guide/stdlib/pdo/codes/host-address/)
+        - [Host Interfaces Model (1:n)](https://ifpb.github.io/php-guide/stdlib/pdo/codes/host-interface/)
+        - [Host DNS Server Model (n:m)](https://ifpb.github.io/php-guide/stdlib/pdo/codes/host-dns/)
+        - [Ping Model](https://ifpb.github.io/php-guide/stdlib/pdo/codes/ping/)
+- Host Simple (DB)
+  - [Model](https://ifpb.github.io/php-guide/stdlib/pdo/codes/host-simple/)
+  - [API](https://ifpb.github.io/php-guide/web/web-api/codes/db/host/)
+  - [App](https://ifpb.github.io/php-guide/web/web-app/host-simple-db/)
 
 **Reflexão:**
+- Como o PHP consegue manipular um banco de dados MySQL?
+- Como usar o PDO para realizar um CRUD em uma Tabela?
+- Como criar um modelo, API e interface Web de uma fonte de dados?
 
 **Exercício:**
+- Faça com que algum serviço da API do seu projeto seja persistido em banco.
 
 ## \# 18 - Acompanhamento do Projeto (03/08/2018)
 ---
