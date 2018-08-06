@@ -481,3 +481,22 @@ Apresentação das propostas de [projetos](https://padlet.com/lucachaves/projeto
 > Entrega do [Projeto Final](../exams/projeto.md) e da avaliação de [PHP](../exams/prova-php.md).
 
 ### E agora?
+
+- Front-end
+  - [CSS current work & how to participate](https://www.w3.org/Style/CSS/current-work)
+  - [CSS-Tricks](https://css-tricks.com)
+  - [Codrops \| Useful resources and inspiration for creative minds](https://tympanus.net/codrops/)
+  - [CSSDB - A curated collection of great CSS, Sass, LESS and Stylus libraries](http://cssdb.co)
+  - [best of js](https://bestofjs.org)
+  - Github Topic: [HTML](https://github.com/topics/html), [CSS](https://github.com/topics/css), [JS](https://github.com/topics/javascript)
+  - Curated list of awesome: [JS](https://github.com/sorrycc/awesome-javascript), [CSS](https://github.com/awesome-css-group/awesome-css), [HTML](https://github.com/diegocard/awesome-html5)
+- Back-end
+  - News: [Home](http://php.net), [PHP Weekly](http://www.phpweekly.com)
+  - [Manuel PHP](http://php.net/manual/en/index.php)
+  - [PHP Fig](https://www.php-fig.org)
+  - Packages: [Composer](https://getcomposer.org), [Packagist](https://packagist.org)
+  - Curated list of awesome: [PHP](https://github.com/ziadoz/awesome-php)
+  - [Laravel](https://laravel.com)
+- MySQL
+  - [MySQL - SQL Statement Syntax](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html)
+  - Curated list of awesome: [DB](https://github.com/numetriclabz/awesome-db), [MySQL](http://shlomi-noach.github.io/awesome-mysql/)
